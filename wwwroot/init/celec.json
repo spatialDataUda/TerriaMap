@@ -1,0 +1,463 @@
+{
+  "homeCamera": {
+    "north": -2.04,
+    "east": -77.63,
+    "south": -3.85,
+    "west": -80.47
+  },
+  "catalog": [
+    {
+      "type": "group",
+      "name": "CELEC-EP",
+      "sortMembersBy": "name",
+      "isOpen": false,
+      "members": [
+        {
+          "path": ["g1"],
+          "type": "terria-reference",
+          "isGroup": true,
+          "url": "http://172.16.60.46:3002/init/celec_hidrometeorologia.json",
+          "name": "G1 Hidrometeorología"
+        },
+        {
+          "path": ["g2"],
+          "type": "terria-reference",
+          "isGroup": true,
+          "url": "http://172.16.60.46:3002/init/celec_geo.json",
+          "name": "G2 Geología"
+        },
+        {
+          "path": ["g4"],
+          "type": "terria-reference",
+          "isGroup": true,
+          "url": "http://172.16.60.46:3002/init/celec_energia.json",
+          "name": "G4 Energías Renovables"
+        },
+        {
+          "type": "group",
+          "name": "G6 Infraestructura",
+          "members": [
+            {
+              "name": "bh130_area_embalse_2153",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g6_infraestructura:bh130_area_embalse_2153",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "G8 Infraestructura transporte",
+          "members": [
+            {
+              "name": "ap030_red_vial_detallada_150000",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g8_infraestructura_transporte:ap030_red_vial_detallada_150000",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "G9 Hidrografía",
+          "members": [
+            {
+              "name": "bh140_quebradas_crp_50k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g9_hidrografia:bh140_quebradas_crp_50k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "bh140_rios_ecuador_50k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g9_hidrografia:bh140_rios_ecuador_50k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "G10 Fisiografía",
+          "members": [
+            {
+              "name": "ca010_curvas_ecuador_250000",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g10_fisiografia:ca010_curvas_ecuador_250000",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            }
+          ]
+        },
+        {
+          "type": "group",
+          "name": "G12 Demarcación",
+          "members": [
+            {
+              "name": "ha000_perfil_ecuador",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:ha000_perfil_ecuador",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "ha002_provincias",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:ha002_provincias",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "ha003_cantones_crp_250k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:ha003_cantones_crp_250k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "ha101_parroquias_cardenillo_250k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:ha101_parroquias_cardenillo_250k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "hd001_microcuenca_25k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:hd001_microcuenca_25k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            },
+            {
+              "name": "hd001_microcuenca_50k",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "layers": "g12_demarcacion:hd001_microcuenca_50k",
+              "type": "wms",
+              "isOpenInWorkbench": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "group",
+      "name": "Instituciones Ecuador",
+      "sortMembersBy": "name",
+      "members": [
+        {
+          "type": "group",
+          "name": "Universidad del Azuay",
+          "members": [
+            {
+              "type": "wms-group",
+              "name": "Areas Verdes Cuenca",
+              "url": "http://gis.uazuay.edu.ec:8080/geoserver/areas_verdes_cuenca/wms",
+              "description": "Información de proyecto Áreas verdes de riberas de ríos, Áreas verdes de parques e Inventario forestal de Cuenca",
+              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
+            },
+            {
+              "type": "wms-group",
+              "name": "Areas Verdes Cuenca 2",
+              "url": "http://gis.uazuay.edu.ec/geoserver/areas_verdes_cuenca/wms\""
+            },
+            {
+              "type": "wms-group",
+              "name": "Cartografía base y temática Azuay",
+              "url": "http://gis.uazuay.edu.ec:8080/geoserver/azuay_250k/wms",
+              "description": "Contiene cartografía base y temática de la provincia del Azuay a escala 1:250.000",
+              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
+            },
+            {
+              "type": "wms-group",
+              "name": "Información territorial Ecuador",
+              "url": "http://gis.uazuay.edu.ec:8080/geoserver/InformacionEcuador_es/wms",
+              "description": "Servicio de información como herramienta de apoyo en la planificación y toma de decisiones para los diferentes niveles de gobiernos autónomos descentralizados en general",
+              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
+            },
+            {
+              "type": "wms-group",
+              "name": "Planificación territorial Zonal 6",
+              "url": "http://gis.uazuay.edu.ec:8080/geoserver/VisorSenplades/wms",
+              "description": "Servicio para sistematizar y organizar la información institucional de la zona 6 del Ecuador, como instrumento de planificación territorial que responda a una visión regional",
+              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
+            }
+          ],
+          "shareKeys": ["Root Group/WMS"]
+        },
+        {
+          "type": "group",
+          "name": "Empresa Eléctrica Regional Centro Sur",
+          "members": [
+            {
+              "name": "Área de Concesión",
+              "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Cartografia/AreaConcesion/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+            },
+            {
+              "name": "Consignaciones",
+              "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Geoportal_Comercial/ConsigAreas_hoy_manana/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+            },
+            {
+              "name": "Red público",
+              "url": "https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/Geoportal_Publico/GeopPublic_RedesDist_rsgis1/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[Centro Sur Servicios](https://geoservicios2.centrosur.gob.ec/geoservicios/rest/services/)"
+            }
+          ]
+        },
+        {
+          "url": "https://geovisore.controlrecursosyenergia.gob.ec/arcgis/rest/services",
+          "type": "esri-group",
+          "dataCustodian": "[Agencia de Regulación y Control de Energía y Recursos Naturales no Renovables – ARCERNNR.](https://www.controlrecursosyenergia.gob.ec/)",
+          "name": "Agencia de Regulación y Control de Energía y Recursos Naturales no Renovables – ARCERNNR."
+        },
+        {
+          "type": "group",
+          "name": "Instituto Geográfico Militar ",
+          "members": [
+            {
+              "type": "wfs",
+              "name": "Vías",
+              "url": "http://www.geoportaligm.gob.ec/regional/wfs?&request=GetFeature&service=WFS&typename=igm:via_l&outputFormat=text/xml;%20subtype=gml/3.1.1&version=1.1.0"
+            },
+            {
+              "name": "Información Nacional",
+              "url": "http://www.geoportaligm.gob.ec/nacional/wms",
+              "type": "wms-group"
+            },
+            {
+              "name": "Información Regional",
+              "url": "http://www.geoportaligm.gob.ec/regional/wms",
+              "type": "wms-group"
+            },
+            {
+              "name": "Modelo Digital de Terreno",
+              "url": "http://www.geoportaligm.gob.ec/dtm/wms?service=WMS&version=1.3.0&request=GetCapabilities",
+              "type": "wms"
+            },
+            {
+              "name": "Ortofotos",
+              "url": "http://www.geoportaligm.gob.ec/orto/wms",
+              "type": "wms-group"
+            }
+          ]
+        },
+        {
+          "type": "wfs-group",
+          "name": "Instituto Nacional de Estadísticas y Censos",
+          "url": "https://geoinec.inec.gob.ec/geoinec/ows"
+        },
+        //{
+        //  "type": "wms-group",
+        //  "name": "Ministerio del Ambiente",
+        //  "url": "http://mapainteractivo.ambiente.gob.ec/geoserver/wms"
+        //},
+        {
+          "type": "wms-group",
+          "name": "SIGTIERRAS",
+          "url": "http://geoportal.sigtierras.gob.ec:8080/geoserver/sigtierras/wms"
+        },
+        {
+          "name": "Catálogo INAMHI",
+          "description": "[Licence](http://www.serviciometeorologico.gob.ec/)",
+          "dataCustodian": "[INAMHI](http://www.serviciometeorologico.gob.ec//)",
+          "url": "http://186.42.174.236:8080/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+          "type": "wms-group"
+        },
+        {
+          "type": "group",
+          "name": "Ministerio de Agricultura",
+          "members": [
+            {
+              "name": "Cobertura y uso de la tierra",
+              "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+              "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+              "url": "http://geoportal.agricultura.gob.ec/cobertura/E100k/wms",
+              "type": "wms-group"
+            },
+            {
+              "name": "Estimaciones de cultivos anuales",
+              "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+              "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+              "url": "http://geoportal.agricultura.gob.ec/cobertura/E25k/wms",
+              "type": "wms-group"
+            },
+            {
+              "name": "Suelos",
+              "description": "[Licence](http://geoportal.agricultura.gob.ec)",
+              "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
+              "url": "http://geoportal.agricultura.gob.ec/sigtierras/geopedologia/wms",
+              "type": "wms-group"
+            }
+          ]
+        },
+        {
+          "name": "Ministerio del ambiente",
+          "description": "[Licence](http://ide.ambiente.gob.ec)",
+          "dataCustodian": "[MAE](http://ide.ambiente.gob.ec)",
+          "url": "http://ide.ambiente.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+          "type": "wms-group"
+        },
+        {
+          "name": "Ministerio de Inclusión Económica y Social",
+          "description": "[Licence](http://inclusion.gob.ec)",
+          "dataCustodian": "[MAE](http://inclusion.gob.ec)",
+          "url": "https://geoportal.inclusion.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+          "type": "wms-group"
+        },
+        {
+          "name": "Ministerio de Minería - ARCOM",
+          "type": "group",
+          "isOpen": false,
+          "members": [
+            {
+              "name": "Catastro Minero",
+              "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "url": "http://181.211.37.231:1028/arcgis/rest/services/Concesiones/CatastroMineroNacional/MapServer",
+              "type": "esri-mapServer-group"
+            },
+            {
+              "name": "Catastro Minero- Tipo Conseción",
+              "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "url": "http://181.211.37.231:1028/arcgis/rest/services/Gads/Concesiones_Produccion/MapServer",
+              "type": "esri-mapServer-group"
+            },
+            {
+              "name": "Catastro Minero- Producción",
+              "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
+              "url": "http://181.211.37.231:1028/arcgis/rest/services/Gads/Concesiones_Produccion/FeatureServer",
+              "type": "esri-featureServer"
+            }
+          ]
+        },
+        {
+          "url": "https://srvportal.gestionderiesgos.gob.ec/server/rest/services",
+          "type": "esri-group",
+          "dataCustodian": "[SNGR](https://.gestionderiesgos.gob.ec)",
+          "name": "Sistema Nacional de Gestión de Riesgos"
+        }
+      ]
+    },
+
+    {
+      "type": "group",
+      "name": "Servicios Globales",
+      "sortMembersBy": "name",
+      "members": [
+        {
+          "type": "group",
+          "name": "ArcGis",
+          "members": [
+            {
+              "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Imagery/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[ArcGis Services](https://server.arcgisonline.com/arcgis/rest/services)",
+              "name": "Imágenes del mundo"
+            },
+            {
+              "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Physical_Map/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[ArcGis Services](https://server.arcgisonline.com/arcgis/rest/services)",
+              "name": "Mapa físico del mundo"
+            },
+            {
+              "url": "https://server.arcgisonline.com/arcgis/rest/services/World_Topo_Map/MapServer",
+              "type": "esri-mapServer",
+              "dataCustodian": "[ArcGis Services](https://server.arcgisonline.com/arcgis/rest/services)",
+              "name": "Mapa de topografía del mundo"
+            }
+          ]
+        },
+        {
+          "name": "Energy Data",
+          "url": "https:/energydata.info/",
+          "type": "ckan-group"
+        },
+        {
+          "type": "wfs-group",
+          "name": "IRENA",
+          "url": "https://irena-ga.azurewebsites.net/geoserver/ows/"
+        },
+
+        {
+          "name": "NASA Global Imagery Browse Services for EOSDIS",
+          "description": "[Licence](NASA)",
+          "dataCustodian": "[NASA Global Imagery](https://earthdata.nasa.gov)",
+          "url": "https://gibs-b.earthdata.nasa.gov/wms/epsg4326/best/wms.cgi",
+          "type": "wms-group"
+        },
+        {
+          "name": "EOX IT Services",
+          "description": "EOX",
+          "dataCustodian": "https://eox.at",
+          "url": "https://tiles.maps.eox.at/wms?",
+          "type": "wms-group"
+        }
+      ]
+    }
+  ],
+  "baseMaps": {
+    "items": [
+      {
+        "item": {
+          "id": "basemap-bing-aerial",
+          "name": "Bing Maps Aerial"
+        },
+        "image": "images/basemaps/ecuador-aerial.png"
+      },
+      {
+        "item": {
+          "id": "basemap-bing-aerial-with-labels",
+          "name": "Bing Maps Aerial with Labels"
+        },
+        "image": "images/basemaps/ecuador-aerial-labels.png"
+      },
+      {
+        "item": {
+          "id": "basemap-bing-roads",
+          "name": "Bing Maps Roads"
+        },
+        "image": "images/basemaps/ecuador-maps-roads.png"
+      },
+      {
+        "item": {
+          "id": "basemap-natural-earth-II",
+          "name": "Natural Earth II"
+        },
+        "image": "images/basemaps/ecuador-natural-earth.png"
+      },
+      {
+        "item": {
+          "id": "basemap-black-marble",
+          "name": "NASA Black Marble"
+        },
+        "image": "images/basemaps/ecuador-black-marble.png"
+      },
+      {
+        "item": {
+          "id": "basemap-positron",
+          "name": "Positron (Light)"
+        },
+        "image": "images/basemaps/ecuador-positron.png"
+      },
+      {
+        "item": {
+          "id": "basemap-darkmatter",
+          "name": "Dark Matter"
+        },
+        "image": "images/basemaps/ecuador-dark-matter.png"
+      }
+    ]
+  },
+  "baseMapId": "basemap-bing-aerial-with-labels",
+  "previewBaseMapId": "basemap-positron"
+}
