@@ -144,7 +144,7 @@
     },
     {
       "type": "group",
-      "name": "Instituciones Ecuador",
+      "name": "Instituciones Ecuador prueba",
       "sortMembersBy": "name",
       "members": [
         {
@@ -153,34 +153,15 @@
           "members": [
             {
               "type": "wms-group",
-              "name": "Areas Verdes Cuenca",
-              "url": "http://gis.uazuay.edu.ec:8080/geoserver/areas_verdes_cuenca/wms",
-              "description": "Información de proyecto Áreas verdes de riberas de ríos, Áreas verdes de parques e Inventario forestal de Cuenca",
-              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
-            },
-            {
-              "type": "wms-group",
-              "name": "Areas Verdes Cuenca 2",
-              "url": "http://gis.uazuay.edu.ec/geoserver/areas_verdes_cuenca/wms\""
-            },
-            {
-              "type": "wms-group",
-              "name": "Cartografía base y temática Azuay",
-              "url": "http://gis.uazuay.edu.ec:8080/geoserver/azuay_250k/wms",
-              "description": "Contiene cartografía base y temática de la provincia del Azuay a escala 1:250.000",
-              "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
-            },
-            {
-              "type": "wms-group",
               "name": "Información territorial Ecuador",
-              "url": "http://gis.uazuay.edu.ec:8080/geoserver/InformacionEcuador_es/wms",
+              "url": "https://gis.uazuay.edu.ec/geoserver/InformacionEcuador_es/wms",
               "description": "Servicio de información como herramienta de apoyo en la planificación y toma de decisiones para los diferentes niveles de gobiernos autónomos descentralizados en general",
               "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
             },
             {
               "type": "wms-group",
               "name": "Planificación territorial Zonal 6",
-              "url": "http://gis.uazuay.edu.ec:8080/geoserver/VisorSenplades/wms",
+              "url": "https://gis.uazuay.edu.ec/geoserver/VisorSenplades/wms",
               "description": "Servicio para sistematizar y organizar la información institucional de la zona 6 del Ecuador, como instrumento de planificación territorial que responda a una visión regional",
               "dataCustodian": "[IERSE](http://ierse.uazuay.edu.ec/)"
             }
@@ -253,11 +234,6 @@
           "name": "Instituto Nacional de Estadísticas y Censos",
           "url": "https://geoinec.inec.gob.ec/geoinec/ows"
         },
-        //{
-        //  "type": "wms-group",
-        //  "name": "Ministerio del Ambiente",
-        //  "url": "http://mapainteractivo.ambiente.gob.ec/geoserver/wms"
-        //},
         {
           "type": "wms-group",
           "name": "SIGTIERRAS",
