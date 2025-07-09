@@ -139,6 +139,19 @@
               "isOpenInWorkbench": false
             }
           ]
+        },
+        {
+          "type": "group",
+          "name": "G15 Predios",
+          "members": [
+            {
+              "name": "Predios sistematizados",
+              "url": "http://172.16.60.46:8600/geoserver/ows?service=wfs&version=1.3.0&request=GetCapabilities",
+              "typeNames": "g15_predios:Predios_Sistematizados_1430_CELEC_SUR",
+              "type": "wfs",
+              "isOpenInWorkbench": false
+            }
+          ]
         }
       ]
     },
