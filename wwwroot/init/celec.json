@@ -387,6 +387,17 @@
     "items": [
       {
         "item": {
+          "id": "basemap-esri-world-imagery",
+          "name": "Esri World Imagery",
+          "type": "url-template-imagery",
+          "url": "https://server.arcgisonline.com/ArcGIS/rest/services/World_Imagery/MapServer/tile/{z}/{y}/{x}",
+          "attribution": "Source: Esri, Maxar, Earthstar Geographics, and the GIS User Community",
+          "opacity": 1.0
+        },
+        "image": "images/basemaps/ecuador-aerial.png"
+      },
+      {
+        "item": {
           "id": "basemap-bing-aerial",
           "name": "Bing Maps Aerial"
         },
@@ -434,8 +445,8 @@
         },
         "image": "images/basemaps/ecuador-dark-matter.png"
       }
-    ]
-  },
-  "baseMapId": "basemap-bing-aerial-with-labels",
-  "previewBaseMapId": "basemap-positron"
+    ],
+    "defaultBaseMapId": "basemap-esri-world-imagery",
+    "previewBaseMapId": "basemap-esri-world-imagery"
+  }
 }
