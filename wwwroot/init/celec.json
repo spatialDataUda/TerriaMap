@@ -145,18 +145,20 @@
           "name": "G15 Predios",
           "members": [
             {
-              "name": "Topografia Predial",
+              "name": "Predios",
               "url": "http://172.16.60.46:8600/geoserver/ows?service=wfs&version=1.3.0&request=GetCapabilities",
               "layers": "g15_predios:Topografia Predial",
               "type": "wms",
-              "isOpenInWorkbench": false
+              "isOpenInWorkbench": false,
+              "description": "Topografía predial de CELEC SUR; contiene la delimitación de los\npredios generada por CELEC SUR y los atributos complementarios elaborados por el Instituto de Estudios de Régimen Seccional del Ecuador (IERSE)"
             },
             {
               "name": "Parroquias",
               "url": "http://172.16.60.46:8600/geoserver/ows?service=wfs&version=1.3.0&request=GetCapabilities",
               "layers": "g15_predios:Parroquias",
               "type": "wms",
-              "isOpenInWorkbench": false
+              "isOpenInWorkbench": false,
+              "description": "Parroquia en donde se encuentra emplazado el predio de acuerdo a la delimitación del Comité Nacional de Límites Internos CONALI 2019"
             }
           ]
         }
