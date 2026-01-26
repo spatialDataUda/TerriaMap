@@ -150,7 +150,7 @@
               "url": "http://172.16.60.46:8600/geoserver/ows",
               "layers": "g15_predios:Topografia Predial",
               "isOpenInWorkbench": false,
-              "description": "Topografía predial de CELEC SUR; contiene la delimitación de los predios generada por CELEC SUR y los atributos complementarios elaborados por el IERSE",
+              "description": "Topografía predial de CELEC SUR; contiene la delimitación de los predios generada por CELEC SUR y los atributos complementarios elaborados por el IERSE. <br><br>En el Dashboard de predios se puede realizar la búsqueda de los predios por distintos parámetros. <br><a href='http://172.16.60.46:8800/d/d0c519bc-50e0-454a-b60b-8251c82caaed/g15-topografia-predial' target='_blank'>Ver Dashboard</a>",
               "legends": [
                 {
                   "url": "http://172.16.60.46:8600/geoserver/ows?service=WMS&version=1.3.0&request=GetLegendGraphic&format=image/png&sld_version=1.1.0&layer=g15_predios:Topografia+Predial&LEGEND_OPTIONS=fontName:Courier;fontStyle:plain;fontSize:12;forceLabels:on;fontAntiAliasing:true;labelMargin:3;fontColor:0x000000;dpi:96&transparent=true",
