@@ -1,54 +1,50 @@
-<!doctype html>
-    <html lang="en">
-      <head>
-        <meta charset="utf-8" />
-        <title>Acerca De</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="about/css/bootstrap.min.css" type="text/css" />
-        <link rel="stylesheet" href="about/fontawesome/css/all.min.css" type="text/css" />
-        <link rel="stylesheet" href="about/css/slick.css" type="text/css" />
-        <link rel="stylesheet" href="about/css/tooplate-simply-amazed.css" type="text/css" />
-        <!--
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>TerriaJS</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        Tooplate 2123 Simply Amazed
-
-        https://www.tooplate.com/view/2123-simply-amazed
-
-        -->
-      </head>
-
-      <body>
-      <div id="outer">
-
-
-        <div class="container">
-
-          <div class="row">
-            <p></p>
-            <p></p>
-
-              <div class="col-md-9">
-
-                <h2>Error interno del servidor</h2>
-                <p>Algo salió mal en nuestro servidor<p>
-                <p><b>&larr; Volver al  <a href="/">Inicio</a></b>.
-                <div style="font-size: 300px; color: hsl(0, 100%, 85%); text-align:center">500</div>
-
-            </div>
-          </div>
-
-
-        </div>
-
-
-      </div>
-      <script src="about/js/jquery-3.3.1.min.js"></script>
-      <script src="about/js/bootstrap.bundle.min.js"></script>
-      <script src="about/js/jquery.singlePageNav.min.js"></script>
-      <script src="about/js/slick.js"></script>
-      <script src="about/js/parallax.min.js"></script>
-      <script src="about/js/templatemo-script.js"></script>
-      </body>
-      </html>
+    <link
+      href="//fonts.googleapis.com/css?family=Roboto:300,600"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        color: #111827;
+      }
+      .error-number {
+        font-family: inherit;
+        font-size: 2.5rem;
+        font-weight: 600;
+        line-height: 1.2;
+        margin: 0;
+        padding-right: 1rem;
+        border-right: 1px solid #dee2e6;
+      }
+      .error-description {
+        font-family: inherit;
+        font-size: 1.25rem;
+        font-weight: 400;
+        line-height: 1.2;
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="error-number">500</h1>
+    <div class="inline-block align-middle">
+      <h2 class="error-description" id="desc">Internal server error.</h2>
+    </div>
+  </body>
+</html>
