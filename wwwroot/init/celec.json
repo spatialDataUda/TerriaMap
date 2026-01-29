@@ -449,21 +449,33 @@
       {
         "item": {
           "id": "basemap-black-marble",
-          "name": "NASA Black Marble"
+          "name": "NASA Black Marble",
+          "type": "url-template-imagery",
+          "url": "https://gibs.earthdata.nasa.gov/wmts/epsg3857/best/VIIRS_Black_Marble/default/2019-01-01/GoogleMapsCompatible_Level9/{z}/{y}/{x}.jpg",
+          "attribution": "NASA Earth Observations",
+          "opacity": 1.0
         },
         "image": "images/basemaps/ecuador-black-marble.png"
       },
       {
         "item": {
           "id": "basemap-positron",
-          "name": "Positron (Light)"
+          "name": "Positron (Light)",
+          "type": "url-template-imagery",
+          "url": "https://basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png",
+          "attribution": "© OpenStreetMap contributors © CARTO",
+          "opacity": 1.0
         },
         "image": "images/basemaps/ecuador-positron.png"
       },
       {
         "item": {
           "id": "basemap-darkmatter",
-          "name": "Dark Matter"
+          "name": "Dark Matter",
+          "type": "url-template-imagery",
+          "url": "https://basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",
+          "attribution": "© OpenStreetMap contributors © CARTO",
+          "opacity": 1.0
         },
         "image": "images/basemaps/ecuador-dark-matter.png"
       }
