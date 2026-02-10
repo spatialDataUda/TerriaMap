@@ -16,21 +16,21 @@
           "path": ["g1"],
           "type": "terria-reference",
           "isGroup": true,
-          "url": "http://172.16.60.46:3002/init/celec_hidrometeorologia.json",
+          "url": "/init/celec_hidrometeorologia.json",
           "name": "G1 Hidrometeorología"
         },
         {
           "path": ["g2"],
           "type": "terria-reference",
           "isGroup": true,
-          "url": "http://172.16.60.46:3002/init/celec_geo.json",
+          "url": "/init/celec_geo.json",
           "name": "G2 Geología"
         },
         {
           "path": ["g4"],
           "type": "terria-reference",
           "isGroup": true,
-          "url": "http://172.16.60.46:3002/init/celec_energia.json",
+          "url": "/init/celec_energia.json",
           "name": "G4 Energías Renovables"
         },
         {
@@ -265,13 +265,6 @@
           ]
         },
         {
-          "name": "Ministerio de Inclusión Económica y Social",
-          "description": "[Licence](http://inclusion.gob.ec)",
-          "dataCustodian": "[MIES](http://inclusion.gob.ec)",
-          "url": "https://geoportal.inclusion.gob.ec/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
-          "type": "wms-group"
-        },
-        {
           "type": "group",
           "name": "Ministerio de Agricultura y Ganadería",
           "dataCustodian": "[Ministerio de Agricultura y Ganadería - MAG](https://www.agricultura.gob.ec/)",
@@ -284,7 +277,7 @@
                   "name": "Escala 1:25.000",
                   "description": "[Licence](http://geoportal.agricultura.gob.ec)",
                   "dataCustodian": "[MAG](http://geoportal.agricultura.gob.ec)",
-                  "url": "http://geoportal.agricultura.gob.ec:8080/sigtierras/cobertura_tierra/wms?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://geoportal.agricultura.gob.ec/sigtierras/cobertura_tierra/wms?service=WMS&version=1.3.0&request=GetCapabilities",
                   "type": "wms-group"
                 },
                 {
