@@ -210,18 +210,18 @@
           "isOpen": false,
           "members": [
             {
-              "name": "Catastro Minero",
-              "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
-              "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
-              "url": "http://181.211.37.231:1028/arcgis/rest/services/Concesiones/CatastroMineroNacional/MapServer",
-              "type": "esri-mapServer-group"
+              "type": "esri-mapServer",
+              "name": "Catastro Minero Nacional",
+              "url": "https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Concesiones/CatastroMineroNacional/MapServer",
+              "description": "Servicio de información del catastro minero nacional de Ecuador, incluyendo concesiones mineras y su localización geográfica, proporcionado por ARCOM como herramienta de planificación y control del sector minero",
+              "dataCustodian": "[Agencia de Regulación y Control Minero - ARCOM](https://www.controlrecursosyenergia.gob.ec/)"
             },
             {
-              "name": "Catastro Minero- Tipo Conseción",
-              "description": "[Licence](http://geo.controlminero.gob.ec:1026/geo_visor/)",
-              "dataCustodian": "[Agencia de Regulación y Control Minero](http://geo.controlminero.gob.ec:1026/geo_visor/)",
-              "url": "http://181.211.37.231:1028/arcgis/rest/services/Gads/Concesiones_Produccion/MapServer",
-              "type": "esri-mapServer-group"
+              "type": "esri-mapServer",
+              "name": "Catastro Minero - Tipo Concesión",
+              "url": "https://geovisorm.controlrecursosyenergia.gob.ec/arcgis/rest/services/Gads/Concesiones_Produccion/MapServer",
+              "description": "Servicio de información sobre concesiones mineras por tipo de concesión en Ecuador, proporcionado por ARCOM para planificación y control del sector minero",
+              "dataCustodian": "[Agencia de Regulación y Control Minero - ARCOM](https://www.controlrecursosyenergia.gob.ec/)"
             }
           ]
         },
