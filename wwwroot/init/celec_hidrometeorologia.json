@@ -244,6 +244,68 @@
         },
         {
           "type": "group",
+          "name": "Calidad del agua",
+          "members": [
+            {
+              "name": "pH",
+              "description": "Resumen de los valores de ph mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/a2d09118-bd97-4a7e-ab43-b73ca1e3e5a6/g1-calidad-agua-ph?orgId=1",
+              "type": "csv",
+              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_ph_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "defaultStyle": {
+                "time": {
+                  "timeColumn": "timestamp_mes",
+                  "idColumns": ["est_id"]
+                }
+              },
+              "info": [
+                {
+                  "name": "Fuente de datos",
+                  "content": "La Corporación Eléctrica del Ecuador (CELEC SUR)  [https://www.celec.gob.ec/celecsur/](https://www.celec.gob.ec/celecsur/)"
+                }
+              ],
+              "columns": [
+                {
+                  "name": "geom_32717",
+                  "type": "hidden"
+                },
+                {
+                  "name": "dashboard",
+                  "type": "hidden"
+                }
+              ]
+            },
+            {
+              "name": "Temperatura del agua",
+              "description": "Resumen de los valores de temperatura del agua mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/f22bd056-0815-4d0e-96d8-d6a818c608a1/g1-calidad-agua-temperatura?orgId=1",
+              "type": "csv",
+              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_temp_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "defaultStyle": {
+                "time": {
+                  "timeColumn": "timestamp_mes",
+                  "idColumns": ["est_id"]
+                }
+              },
+              "info": [
+                {
+                  "name": "Fuente de datos",
+                  "content": "La Corporación Eléctrica del Ecuador (CELEC SUR)  [https://www.celec.gob.ec/celecsur/](https://www.celec.gob.ec/celecsur/)"
+                }
+              ],
+              "columns": [
+                {
+                  "name": "geom_32717",
+                  "type": "hidden"
+                },
+                {
+                  "name": "dashboard",
+                  "type": "hidden"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "group",
           "name": "Imágenes satelitales",
           "members": [
             {
