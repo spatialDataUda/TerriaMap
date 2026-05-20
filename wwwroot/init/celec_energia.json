@@ -13,9 +13,9 @@
           "members": [
             {
               "name": "Solar Temperatura Mensual (°C)",
-              "description": "Resumen de los valores de temperatura del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace  http://172.16.60.46:8800/d/KCuRi_17k/g4_solar_temperatura_mensual?orgId=1",
+              "description": "Resumen de los valores de temperatura del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/KCuRi_17k/g4_solar_temperatura_mensual?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_solar_temperatura_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_solar_temperatura_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -50,9 +50,9 @@
             },
             {
               "name": "Solar Humedad Relativa Mensual (%)",
-              "description": "Resumen de los valores de humedad relativa del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace  http://172.16.60.46:8800/d/iZeZ7ax7z/g4_solar_humedad_relativa_mensual",
+              "description": "Resumen de los valores de humedad relativa del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/iZeZ7ax7z/g4_solar_humedad_relativa_mensual",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4_Solar_Humedad_Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4_Solar_Humedad_Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -78,9 +78,9 @@
             },
             {
               "name": "Solar Radiación Mensual (W/m2)",
-              "description": "Resumen de los valores de radiación solar del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace http://172.16.60.46:8800/d/jVAmSga7z/g4_solar_radiacion_mensual \n\n Enlace dashboard radiación solar horaria http://172.16.60.46:8800/d/rnFJvga7z/g4_solar_radiacion_horaria?orgId=1&var-estacion=est_solar",
+              "description": "Resumen de los valores de radiación solar del aire a escala anual, mensual y horaria en las estaciones de radiación solar.\n\n Enlace https://geo.celec.gob.ec/grafana/d/jVAmSga7z/g4_solar_radiacion_mensual \n\n Enlace dashboard radiación solar horaria https://geo.celec.gob.ec/grafana/d/rnFJvga7z/g4_solar_radiacion_horaria?orgId=1&var-estacion=est_solar",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4_Solar_Radiacion_Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4_Solar_Radiacion_Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -110,7 +110,7 @@
               "members": [
                 {
                   "name": "Mapa Irradiación Global Inclinación Optima",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Irradiacion-Global-Inclinacion-Optima-Ecuador",
                   "type": "wms",
                   "info": [
@@ -122,7 +122,7 @@
                 },
                 {
                   "name": "Mapa Irradiación Horizontal Difusa",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Irradiacion-horizontal-Difusa-Ecuador",
                   "type": "wms",
                   "info": [
@@ -134,7 +134,7 @@
                 },
                 {
                   "name": "Mapa Irradiación Horizontal Global",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Irradiacion-Horizontal-Global-Ecuador",
                   "type": "wms",
                   "info": [
@@ -146,7 +146,7 @@
                 },
                 {
                   "name": "Mapa Irradiación Normal Directa",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Irradiacion-Normal-Directa-Ecuador",
                   "type": "wms",
                   "info": [
@@ -158,7 +158,7 @@
                 },
                 {
                   "name": "Mapa Temperatura",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Temperatura-Ecuador",
                   "type": "wms",
                   "info": [
@@ -179,9 +179,9 @@
           "members": [
             {
               "name": "Eólico Temperatura Mensual (°C)",
-              "description": "Resumen de los valores de temperatura del aire a escala anual, mensual y horaria en las torres eólicas.  \n\n Enlace http://172.16.60.46:8800/d/EUlUJxAnz/g4_eolico_temperatura_mensual",
+              "description": "Resumen de los valores de temperatura del aire a escala anual, mensual y horaria en las torres eólicas.  \n\n Enlace https://geo.celec.gob.ec/grafana/d/EUlUJxAnz/g4_eolico_temperatura_mensual",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Temperatura-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Temperatura-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -207,9 +207,9 @@
             },
             {
               "name": "Eólico Humedad Relativa Mensual (%)",
-              "description": "Resumen de los valores de humedad relativa del aire a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace http://172.16.60.46:8800/d/tzmX7wJnz/g4_eolico_humedad_mensual ",
+              "description": "Resumen de los valores de humedad relativa del aire a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace https://geo.celec.gob.ec/grafana/d/tzmX7wJnz/g4_eolico_humedad_mensual ",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Eolico-Humedad-RelativaMensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Eolico-Humedad-RelativaMensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -235,9 +235,9 @@
             },
             {
               "name": "Eólico Presión Atmosférica Mensual (mbar)",
-              "description": "Resumen de los valores de presión atmosférica a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace http://172.16.60.46:8800/d/Rim4vwJ7z/g4_eolico_presion_mensual",
+              "description": "Resumen de los valores de presión atmosférica a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace https://geo.celec.gob.ec/grafana/d/Rim4vwJ7z/g4_eolico_presion_mensual",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Eolico-Presion-AtmosfericaMensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Eolico-Presion-AtmosfericaMensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -263,9 +263,9 @@
             },
             {
               "name": "Eólico Dirección del Viento Mensual (grados)",
-              "description": "Resumen de los valores de dirección del viento a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace http://172.16.60.46:8800/d/iCZxwgb7k/g4_eolico_direccion_viento_mensual",
+              "description": "Resumen de los valores de dirección del viento a escala anual, mensual y horaria en las torres eólicas. \n\n Enlace https://geo.celec.gob.ec/grafana/d/iCZxwgb7k/g4_eolico_direccion_viento_mensual",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4-Eolico-Direcion-Viento-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3AG4-Eolico-Direcion-Viento-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -291,9 +291,9 @@
             },
             {
               "name": "Eólico Velocidad del Viento Mensual (m/s)",
-              "description": "Resumen de los valores de velocidad del viento a escala anual, mensual y horaria en las torres eólicas.\n\n Enlace http://172.16.60.46:8800/d/jIhNcw1nk/g4_eolico_velocidad_viento_mensual \n\n Enlace velocidad del viento horaria http://172.16.60.46:8800/d/ptAaJuPnk/g4_eolico_velocidad_viento_horario?orgId=1",
+              "description": "Resumen de los valores de velocidad del viento a escala anual, mensual y horaria en las torres eólicas.\n\n Enlace https://geo.celec.gob.ec/grafana/d/jIhNcw1nk/g4_eolico_velocidad_viento_mensual \n\n Enlace velocidad del viento horaria https://geo.celec.gob.ec/grafana/d/ptAaJuPnk/g4_eolico_velocidad_viento_horario?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Velocidad-Viento-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g4_energias_renovables/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g4_energias_renovables%3Ag4_energias_renovables-Velocidad-Viento-Mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -323,7 +323,7 @@
               "members": [
                 {
                   "name": "Mapa Velocidad Viento 100m",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Velocidad-Viento-100m",
                   "type": "wms",
                   "info": [
@@ -335,7 +335,7 @@
                 },
                 {
                   "name": "Mapa Densidad Viento",
-                  "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
                   "layers": "g4_energias_renovables:Mapa-Densidad-Viento-Ecuador-100m",
                   "type": "wms",
                   "info": [

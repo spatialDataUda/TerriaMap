@@ -12,9 +12,9 @@
           "members": [
             {
               "name": "Temperatura Mensual (°C)",
-              "description": "Resumen de los valores de temperatura del aire a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/N2p9Sphnk/g1-temperatura?orgId=1.",
+              "description": "Resumen de los valores de temperatura del aire a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/N2p9Sphnk/g1-temperatura?orgId=1.",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_hidro_temperatura_promedio_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_hidro_temperatura_promedio_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -40,9 +40,9 @@
             },
             {
               "name": "Humedad Relativa Mensual (%)",
-              "description": "Resumen de los valores de humedad relativa del aire a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/7eoAcgr7z/g1_humedad_relativa?orgId=1",
+              "description": "Resumen de los valores de humedad relativa del aire a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/7eoAcgr7z/g1_humedad_relativa?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_humedad_relativa_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_humedad_relativa_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -68,9 +68,9 @@
             },
             {
               "name": "Radiación Solar Mensual (W/m2)",
-              "description": "Resumen de los valores de radiación solar a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/KPlitR97k/g1_radiacion_solar?orgId=1",
+              "description": "Resumen de los valores de radiación solar a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/KPlitR97k/g1_radiacion_solar?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_radiacion_solar_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_radiacion_solar_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -96,9 +96,9 @@
             },
             {
               "name": "Velocidad del Viento Mensual (m/s)",
-              "description": "Resumen de los valores de velocidad del viento a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/xaVTsg9nz/g1_velocidad_viento?orgId=1",
+              "description": "Resumen de los valores de velocidad del viento a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/xaVTsg9nz/g1_velocidad_viento?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_velocidad_viento_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_velocidad_viento_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -124,9 +124,9 @@
             },
             {
               "name": "Dirección del Viento Mensual (grados)",
-              "description": "Resumen de los valores de dirección del viento a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/BKu6Fgr7z/g1_direccion_viento?orgId=1",
+              "description": "Resumen de los valores de dirección del viento a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/BKu6Fgr7z/g1_direccion_viento?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_direccion_viento_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_direccion_viento_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -152,9 +152,9 @@
             },
             {
               "name": "Precipitación Mensual (mm)",
-              "description": "Resumen de los valores de precipitación escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/n8loYmrnz/g1_precipitacion?orgId=1",
+              "description": "Resumen de los valores de precipitación escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/n8loYmrnz/g1_precipitacion?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_precipitacion&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_precipitacion&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -186,9 +186,9 @@
           "members": [
             {
               "name": "Caudal media mensual (m3/s)",
-              "description": "Resumen de los valores de caudal a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/-nyFwju7k/g1_caudal_mensual?orgId=1",
+              "description": "Resumen de los valores de caudal a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/-nyFwju7k/g1_caudal_mensual?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_caudal_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_caudal_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -214,9 +214,9 @@
             },
             {
               "name": "Nivel mensual (cm/m)",
-              "description": "Resumen de los valores de nivel a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/pBabNy97z/g1_nivel_mensual?orgId=1",
+              "description": "Resumen de los valores de nivel a escala anual y mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/pBabNy97z/g1_nivel_mensual?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_nivel_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ag1_nivel_mensual&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -248,9 +248,9 @@
           "members": [
             {
               "name": "pH",
-              "description": "Resumen de los valores de ph mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/a2d09118-bd97-4a7e-ab43-b73ca1e3e5a6/g1-calidad-agua-ph?orgId=1",
+              "description": "Resumen de los valores de ph mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/a2d09118-bd97-4a7e-ab43-b73ca1e3e5a6/g1-calidad-agua-ph?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_ph_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_ph_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -276,9 +276,9 @@
             },
             {
               "name": "Temperatura del agua",
-              "description": "Resumen de los valores de temperatura del agua mensual en las estaciones de hidrometeorología.\n\n Enlace  http://172.16.60.46:8800/d/f22bd056-0815-4d0e-96d8-d6a818c608a1/g1-calidad-agua-temperatura?orgId=1",
+              "description": "Resumen de los valores de temperatura del agua mensual en las estaciones de hidrometeorología.\n\n Enlace  https://geo.celec.gob.ec/grafana/d/f22bd056-0815-4d0e-96d8-d6a818c608a1/g1-calidad-agua-temperatura?orgId=1",
               "type": "csv",
-              "url": "http://172.16.60.46:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_temp_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
+              "url": "http://172.16.60.64:8600/geoserver/g1_hidrometeorologia/ows?service=WFS&version=1.0.0&request=GetFeature&typeName=g1_hidrometeorologia%3Ajc003_v_ca_temp_men&maxFeatures=5000000&outputFormat=text%2Fcsv",
               "defaultStyle": {
                 "time": {
                   "timeColumn": "timestamp_mes",
@@ -310,7 +310,7 @@
           "members": [
             {
               "name": "Precipitación Infrarroja del Grupo de Peligros Climáticos - CHRIPS",
-              "url": "http://172.16.60.46:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+              "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
               "layers": "g1_hidrometeorologia:precip",
               "type": "wms",
               "isOpenInWorkbench": false
