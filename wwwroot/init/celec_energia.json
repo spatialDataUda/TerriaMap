@@ -344,6 +344,22 @@
                       "content": "Global Wind Atlas  [https://globalwindatlas.info/](https://globalwindatlas.info/)"
                     }
                   ]
+                },
+                {
+                  "name": "Media anual (2024) de la velocidad del viento a 100 m de altura a las 10:00 h en la malla de 9 km para la zona sur del Ecuador",
+                  "url": "http://172.16.60.64:8600/geoserver/ows?service=wms&version=1.3.0&request=GetCapabilities",
+                  "layers": "g4_energias_renovables:UNET_final_media_2024_exp11_9km_10h",
+                  "type": "wms",
+                  "info": [
+                    {
+                      "name": "Descripción",
+                      "content": "La velocidad del viento corresponde al promedio anual de las estimaciones diarias para 2024 generadas mediante un modelo U-Net entrenado para corregir el producto ERA5 calibrado a 9 km, utilizando variables meteorológicas y de superficie como predictores."
+                    },
+                    {
+                      "name": "Fuente",
+                      "content": "Elaborado con datos de ECMWF (ERA5 y ERA5-Land) y del Global Wind Atlas (GWA), complementados con observaciones de torres meteorológicas."
+                    }
+                  ]
                 }
               ]
             }
